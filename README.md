@@ -13,9 +13,9 @@
 - [ ]  `.gitignore` 에 다음의 [자동생성 사이트](https://www.toptal.com/developers/gitignore)를 이용하여 `vim`, `macOS`, `node`, `linux`, `visualStudioCode`, `dotenv` 등 포함
 - [ ]  `.gitignore` 에 dbmate(schema.sql) 파일과 추후 생성하고 관리할 csv 파일 확장자명/디렉토리 포함.
 
-node_modules와 package.json, package-lock-json은 복붙하는게 아니라, 
-아래 순서대로 설치를 해야 함. 
-그리고 자동으로 폴더/파일이 생김. 
+>>> node_modules와 package.json, package-lock-json은 복붙하는게 아니라, 
+    아래 순서대로 설치를 해야 함. 
+    그리고 자동으로 폴더/파일이 생김. 
 
 
 - [ ]  필요한 package 설치
@@ -32,9 +32,9 @@ node_modules와 package.json, package-lock-json은 복붙하는게 아니라,
             - `jwt`(npm install jsonwebtoken)
             - `dotenv`
 
-        express 따로 먼저 설치하고, (npm install express --save-dev)
-        mysql, typeorm, cor, bcrypt, dotenv 같이 한번에 설치 가능하고 (npm install mysql mysql2 typeorm cors bcrypt dotenv --save-dev) 
-        jwt(jsonwebtoken)은 따로 설치해야 됨 (npm install jsonwebtoken)
+     >> express 따로 먼저 설치하고, (npm install express --save-dev)
+     >> mysql, typeorm, cor, bcrypt, dotenv 같이 한번에 설치 가능하고 (npm install mysql mysql2 typeorm cors bcrypt dotenv --save-dev) 
+     >> jwt(jsonwebtoken)은 따로 설치해야 됨 (npm install jsonwebtoken)
 
         2. **devDependency**
             - `nodemon` (global 환경도 ok)
