@@ -2,10 +2,11 @@
 
 require("dotenv").config();
 const jwt = require("jsonwebtoken");
-const { throwError } = require("../utils");
+const { throwError } = require("../utils/throwError");
 
 exports.verifyToken = (req, res, next) => {
   const token = req.header("Authorization");
+  //  const token = req.headers.authorization;
 
   // 토큰 유무 확인
   if (!token) {
